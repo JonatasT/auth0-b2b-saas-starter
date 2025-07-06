@@ -24,7 +24,7 @@ export function CreateOrganizationForm() {
         if (error) {
           toast.error(error)
         } else {
-          toast.success("Your organization has been created.")
+          toast.success("Sua Organização foi criada.")
         }
       }}
     >
@@ -34,14 +34,14 @@ export function CreateOrganizationForm() {
           <Input
             value={user?.email || ""}
             id="email"
-            placeholder="name@example.com"
+            placeholder="name@exemplo.com"
             type="email"
             disabled
             readOnly
           />
         </div>
         <div className="grid gap-2">
-          <Label htmlFor="organization_name">Organization Name</Label>
+          <Label htmlFor="organization_name">Nome da Organização</Label>
           <Input
             id="organization_name"
             name="organization_name"
@@ -58,7 +58,7 @@ export function CreateOrganizationForm() {
             Slug: <Code>{slugify(name || "Acme Corp")}</Code>
           </p>
         </div>
-        <SubmitButton>Create Organization</SubmitButton>
+        <SubmitButton>Criar Organização</SubmitButton>
       </div>
     </form>
   )

@@ -18,9 +18,9 @@ export async function resendVerificationEmail() {
 
     return {}
   } catch (error) {
-    console.error("failed to resend verification e-mail", error)
+    console.error("falha ao reenviar e-mail de verificação", error)
     return {
-      error: "Failed to resend verification e-mail.",
+      error: "Falha ao reenviar o e-mail de verificação.",
     }
   }
 }

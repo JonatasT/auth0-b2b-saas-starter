@@ -10,10 +10,10 @@ export function SignUpForm() {
     <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
       <div className="flex flex-col space-y-2 text-center">
         <h1 className="text-2xl font-semibold tracking-tight">
-          Try SaaStart for Free
+          Experimente o Checksync Gratuitamente
         </h1>
         <p className="text-sm text-muted-foreground">
-          Enter your email address to sign up and create a new organization for you and your collaborators.
+          Digite seu e-mail para se inscrever e criar uma nova organização para você e seus colaboradores.
         </p>
       </div>
       <form
@@ -32,32 +32,32 @@ export function SignUpForm() {
       >
         <div className="grid gap-4">
           <div className="grid gap-2">
-            <Label htmlFor="email">Email</Label>
+            <Label htmlFor="email">E-mail</Label>
             <Input
               id="email"
               type="email"
               name="email"
-              placeholder="name@example.com"
+              placeholder="nome@exemplo.com"
               required
             />
           </div>
-          <SubmitButton>Get Started</SubmitButton>
+          <SubmitButton>Começar</SubmitButton>
         </div>
       </form>
       <p className="px-8 text-center text-sm text-muted-foreground">
-        By continuing, you agree to our{" "}
+        Ao continuar, você concorda com nossos{" "}
         <Link
           href="/terms"
           className="underline underline-offset-4 hover:text-primary"
         >
-          Terms of Service
+          Termos de Serviço
         </Link>{" "}
-        and{" "}
+        e{" "}
         <Link
           href="/privacy"
           className="underline underline-offset-4 hover:text-primary"
         >
-          Privacy Policy
+          Política de Privacidade
         </Link>
         .
       </p>

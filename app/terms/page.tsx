@@ -1,347 +1,169 @@
-export default function Privacy() {
+export default function TermsOfUse() {
+  // O nome do componente foi alterado para refletir o conteúdo (Termos de Uso)
   return (
-    <div className="mx-auto flex justify-center">
+    <div className="mx-auto flex justify-center p-4 md:p-8">
       <article className="prose lg:prose-xl">
         <div>
           <span>
-            <h2>Auth0.com Website Terms of Use</h2>
+            <h2>Termos de Uso do Checksync</h2>
             <p></p>
-            <h3>Last Update: May 31, 2018</h3>
+            <h3>Última Atualização: 05 de Julho de 2025</h3>
             <p></p>
-            <h3>Introduction</h3>
+            <h3>Introdução</h3>
             <p>
-              These are the terms of use for auth0.com and its connected
-              webpages, microsites and portals (collectively, the Site). The
-              Site is operated by Auth0, Inc. (we, us and our). By using the
-              Site, you consent to these terms of use and agree to be bound by
-              them. If we change these terms of use in any way, those changes
-              will be posted on this page. These terms of use were last updated
-              on May 31 2018. These Terms do not apply to your access to and use
-              of the products and services which we market for subscription on
-              the Site (our Services), including our support program for our
-              Services.
+              Estes são os termos de uso para o site e plataforma Checksync
+              (coletivamente, o "Site"). O Site é operado pela Checksync (referida como "nós", "nos" e "nosso"). Ao utilizar o Site, você concorda
+              com estes termos de uso e se compromete a cumpri-los. Se alterarmos estes
+              termos de uso, as mudanças serão publicadas nesta página. Estes
+              termos não se aplicam ao acesso e uso dos serviços de assinatura
+              que oferecemos no Site (nossos "Serviços"), como a criação e
+              gestão de eventos.
             </p>
             <hr />
-            <h3>Access to the Site</h3>
+            <h3>Acesso ao Site</h3>
             <p>
-              It is your responsibility to ensure your computer system meets all
-              the necessary technical specifications to enable you to access and
-              use the Site and is compatible with the Site. We may, from time to
-              time, restrict access to certain features, parts or content of the
-              Site to users who have registered with us (such as access to the
-              Services support program features and pages). You must ensure that
-              any registration details you provide are accurate. If you use or
-              create a log-in ID (such as a username and password or other
-              identifier) as part of our security procedures, you must treat
-              such information as confidential and must not reveal it to anyone
-              else. You are responsible for all activities that occur under your
-              log-in ID and must notify us immediately of any unauthorized use
-              or other security breach of which you become aware. We reserve the
-              right to disable any log-in ID, at any time, if in our opinion you
-              have failed to comply with any of the provisions of these terms of
-              use or if any details you provide for the purposes of registering
-              as a user prove to be false. We cannot guarantee the continuous,
-              uninterrupted or error-free operability of the Site. There may be
-              times when certain features, parts or content of the Site, or the
-              entire Site, become unavailable (whether on a scheduled or
-              unscheduled basis) or are modified, suspended or withdrawn by us,
-              in our sole discretion, without notice to you. You agree that we
-              will not be liable to you or to any third party for any
-              unavailability, modification, suspension or withdrawal of the
-              Site, or any features, parts or content of the Site.
+              É sua responsabilidade garantir que seu sistema de computador atenda a
+              todas as especificações técnicas necessárias para acessar e usar o
+              Site e que seja compatível com ele. Podemos, de tempos em tempos,
+              restringir o acesso a certas funcionalidades ou partes do Site a
+              usuários que se registraram conosco. Você deve garantir que
+              quaisquer detalhes de registro fornecidos sejam precisos. Se você
+              usar ou criar uma identificação de login (como nome de usuário e
+              senha), deve tratar tais informações como confidenciais e não
+              revelá-las a ninguém. Você é responsável por todas as atividades
+              que ocorrem sob sua identificação de login e deve nos notificar
+              imediatamente sobre qualquer uso não autorizado ou outra violação
+              de segurança. Reservamo-nos o direito de desativar qualquer
+              identificação de login, a qualquer momento, se em nossa opinião você
+              não cumpriu com qualquer uma das disposições destes termos.
             </p>
             <hr />
-            <h3>What you are allowed to do</h3>
+            <h3>O que você pode fazer</h3>
             <p>
-              Except as necessary for your evaluation and use of the Services,
-              you may only use the Site for non-commercial use and only in
-              accordance with these terms of use. You may retrieve and display
-              content from the Site on a computer screen, print and copy
-              individual pages and, subject to the next section, store such
-              pages in electronic form. Additional terms may also apply to
-              certain features, parts or content of the Site and, where they
-              apply, will be displayed before you access the relevant features,
-              parts or content.
+              Você pode usar o Site para fins pessoais e comerciais legítimos,
+              como a gestão de seus eventos, e apenas de acordo com estes termos
+              de uso. Você pode visualizar o conteúdo do Site em uma tela de
+              computador, imprimir e copiar páginas individuais e armazená-las
+              em formato eletrônico, sujeito à próxima seção.
             </p>
-            <h3>What you are not allowed to do</h3>
+            <h3>O que você não pode fazer</h3>
             <p>
-              Except to the extent expressly set out in these Terms, you are not
-              allowed to:
+              Exceto na medida expressamente estabelecida nestes Termos, você não
+              tem permissão para:
             </p>
             <ul>
               <li>
-                store pages of the Site on a server or other storage device
-                connected to a network or create an electronic database by
-                systematically downloading and storing all of the pages of the
-                Site;
+                Armazenar páginas do Site em um servidor ou outro dispositivo de
+                armazenamento conectado a uma rede ou criar um banco de dados
+                eletrônico baixando e armazenando sistematicamente todas as
+                páginas do Site;
               </li>
               <li>
-                remove or change any content of the Site or attempt to
-                circumvent security or interfere with the proper working of the
-                Site or the servers on which it is hosted; or
+                Remover ou alterar qualquer conteúdo do Site ou tentar contornar a
+                segurança ou interferir com o funcionamento adequado do Site ou
+                dos servidores em que está hospedado; ou
               </li>
               <li>
-                create links to the Site from any other website, without our
-                prior written consent, although you may link from a website that
-                is operated by you provided the link is not misleading or
-                deceptive and fairly indicates its destination, you do not imply
-                that we endorse you, your website, or any products or services
-                you offer, you link to (and do not frame or replicate) the home
-                page of the Site, and the linked website does not contain any
-                content that is unlawful, threatening, abusive, defamatory,
-                pornographic, obscene, vulgar, indecent, offensive or which
-                infringes on the intellectual property rights or other rights of
-                any third party. You must only use the Site and anything
-                available from the Site for lawful purposes (complying with all
-                applicable laws and regulations), in a responsible manner, and
-                not in a way that might damage our name or reputation or that of
-                any of our affiliates. All rights granted to you under these
-                terms of use will terminate immediately in the event that you
-                are in breach of any of them.
+                Criar links para o Site de qualquer outro site sem nosso
+                consentimento prévio por escrito, embora você possa criar um link de
+                um site operado por você, desde que o link não seja enganoso,
+                indique seu destino de forma justa, não implique que endossamos
+                você ou seu site, e o site vinculado não contenha conteúdo
+                ilegal, abusivo, ou que infrinja os direitos de propriedade
+                intelectual de terceiros.
               </li>
             </ul>
             <hr />
-            <h3>Intellectual property rights</h3>
+            <h3>Direitos de Propriedade Intelectual</h3>
             <p>
-              All intellectual property rights in any content of the Site
-              (including text, graphics, software, photographs and other images,
-              videos, sound, trade marks and logos) are owned by us or our
-              licensors. Except as expressly set out here, nothing in these
-              terms of use gives you any rights in respect of any intellectual
-              property owned by us or our licensors and you acknowledge that you
-              do not acquire any ownership rights by downloading content from
-              the Site. If you print off, copy or store pages from the Site
-              (only as permitted by these terms of use), you must ensure that
-              any copyright, trade mark or other intellectual property right
-              notices contained in the original content are reproduced.
+              Todos os direitos de propriedade intelectual sobre qualquer conteúdo
+              do Site (incluindo texto, gráficos, software, fotos, vídeos, sons,
+              marcas registradas e logotipos) são de nossa propriedade ou de
+              nossos licenciadores. Nada nestes termos de uso lhe confere
+              quaisquer direitos em relação a qualquer propriedade intelectual de
+              nossa propriedade ou de nossos licenciadores. Ao postar conteúdo
+              relacionado aos seus eventos (como fotos, descrições, etc.), você
+              concede ao Checksync uma licença mundial, não exclusiva e isenta
+              de royalties para usar, exibir e distribuir esse conteúdo dentro
+              da plataforma com o objetivo de promover e realizar seu evento.
             </p>
             <hr />
-            <h3>Content</h3>
+            <h3>Conteúdo</h3>
             <p>
-              We may change the format and content of the Site from time to
-              time. You agree that your use of the Site is on an &apos;as
-              is&apos; and &apos;as available&apos; basis and at your sole risk.
+              Podemos alterar o formato e o conteúdo do Site de tempos em tempos.
+              Você concorda que seu uso do Site é "no estado em que se encontra"
+              e "conforme disponível" e por sua conta e risco. Embora nos
+              esforcemos para garantir que todas as informações no Site estejam
+              corretas, elas não se destinam a constituir conselhos nos quais se
+              deve confiar.
             </p>
             <p>
-              Whilst we try to make sure that all information contained on the
-              Site (other than any user-generated content) is correct, it is not
-              intended to amount to authority or advice on which reliance should
-              be placed. You should check with us or the relevant information
-              source before acting on any such information.
+              NÃO OFERECEMOS NENHUMA GARANTIA QUANTO À PRECISÃO, INTEGRIDADE,
+              ATUALIDADE, CORREÇÃO, CONFIABILIDADE, QUALIDADE OU ADEQUAÇÃO A UM
+              PROPÓSITO ESPECÍFICO DE QUALQUER CONTEÚDO DO SITE E, ATÉ O LIMITE
+              MÁXIMO PERMITIDO PELA LEI, TODAS AS GARANTIAS IMPLÍCITAS SÃO
+              EXCLUÍDAS E NÃO ACEITAMOS RESPONSABILIDADE POR QUALQUER PERDA OU
+              DANO DE QUALQUER TIPO.
             </p>
             <p>
-              WE MAKE OR GIVE NO REPRESENTATION OR WARRANTY AS TO THE ACCURACY,
-              COMPLETENESS, CURRENCY, CORRECTNESS, RELIABILITY, INTEGRITY,
-              QUALITY, FITNESS FOR PURPOSE OR ORIGINALITY OF ANY CONTENT OF THE
-              SITE AND, TO THE FULLEST EXTENT PERMITTED BY LAW, ALL IMPLIED
-              WARRANTIES, CONDITIONS OR OTHER TERMS OF ANY KIND ARE HEREBY
-              EXCLUDED AND WE ACCEPT NO LIABILITY FOR ANY LOSS OR DAMAGE OF ANY
-              KIND INCURRED AS A RESULT OF YOU OR ANYONE ELSE USING THE SITE OR
-              RELYING ON ANY OF ITS CONTENT.
-            </p>
-            <p>
-              We cannot and do not guarantee that any content of the Site will
-              be free from viruses and/or other code that may have contaminating
-              or destructive elements. It is your responsibility to implement
-              appropriate IT security safeguards (including anti-virus and other
-              security checks) to satisfy your particular requirements as to the
-              safety and reliability of content.
-            </p>
-            <p>
-              If you post or otherwise display any of your or your
-              employer&apos;s own content on the Site, you hereby grant Auth0 a
-              non-exclusive, perpetual, royalty-free, paid-up, worldwide
-              license, with right to sub-license, to copy. modify, distribute,
-              display, perform, make, use and sell (or sub-license, as
-              applicable) such content.
+              Não podemos garantir que qualquer conteúdo do Site estará livre de
+              vírus e/ou outros códigos que possam ter elementos contaminantes
+              ou destrutivos. É sua responsabilidade implementar salvaguardas
+              de segurança de TI apropriadas.
             </p>
             <hr />
-            <h3>Your personal information</h3>
+            <h3>Suas Informações Pessoais</h3>
             <p>
-              Use of your personal information submitted to or via the Site is
-              governed by our{" "}
-              <a href="https://auth0.com/privacy">privacy policy</a>.
+              O uso de suas informações pessoais enviadas para ou através do Site
+              é regido por nossa{" "}
+              <a href="/privacy">Política de Privacidade</a>.
             </p>
             <hr />
-            <h3>External links</h3>
+            <h3>Links Externos</h3>
             <p>
-              The Site may, from time to time, include links to external sites,
-              which may include links to third party offers and promotions. We
-              include these to provide you with access to information, products
-              or services that you may find useful or interesting. We are not
-              responsible for the content of these sites or for anything
-              provided by them and do not guarantee that they will be
-              continuously available. The fact that we include links to such
-              external sites does not imply any endorsement of or association
-              with their operators or promoters.
+              O Site pode incluir links para sites externos. Incluímos estes
+              links para fornecer acesso a informações, produtos ou serviços que
+              você pode achar úteis. Não somos responsáveis pelo conteúdo
+              desses sites ou por qualquer coisa fornecida por eles.
             </p>
             <hr />
-            <h3>DMCA Notice and Procedure</h3>
+            <h3>Procedimento de Notificação de Violação de Direitos Autorais</h3>
             <p>
-              NOTICE AND PROCEDURE FOR MAKING CLAIMS OF COPYRIGHT INFRINGEMENT
-              IN ACCORDANCE WITH THE DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA).
+              O Checksync responderá a alegações de violação de direitos
+              autorais. Se você acredita que seu trabalho foi copiado ou postado
+              em nosso Site de uma forma que constitui violação de direitos
+              autorais, entre em contato com nosso agente designado no e-mail
+              abaixo, fornecendo as informações necessárias para a análise da
+              reclamação.
             </p>
             <p>
-              Auth0, Inc. (Auth0) will respond to allegations of copyright
-              violations in accordance with the Digital Millennium Copyright Act
-              (DMCA). The DMCA provides a process for a copyright owner to give
-              notification to an online service provider concerning alleged
-              copyright infringement. When a valid DMCA notification is
-              received, the service provider responds under this process by
-              taking down the offending content. On taking down content under
-              the DMCA, we will take reasonable steps to contact the owner of
-              the removed content so that a counter-notification may be filed.
-              On receiving a valid counter-notification, we generally restore
-              the content in question, unless we receive notice from the
-              notification provider that a legal action has been filed seeking a
-              court order to restrain the alleged infringer from engaging in the
-              infringing activity. Auth0 may provide copies of such notices to
-              the participants in the dispute or to any other third parties, at
-              our discretion and as required by law. Auth0&apos;s privacy policy
-              does not protect information provided in these notices. NOTE: THE
-              FOLLOWING INFORMATION IS PROVIDED EXCLUSIVELY FOR NOTIFYING AUTH0
-              THAT YOUR COPYRIGHTED MATERIAL MAY HAVE BEEN INFRINGED. ALL OTHER
-              INQUIRIES, SUCH AS REQUESTS FOR TECHNICAL ASSISTANCE, REPORTS OF
-              EMAIL ABUSE, AND DATA PROTECTION OR PRIVACY REQUIREMENTS, WILL NOT
-              RECEIVE A RESPONSE THROUGH THIS PROCESS.
+              Agente de Direitos Autorais do Checksync
+              <br />
+              Email: legal@checksync.com.br
+            </p>
+            <p>
+              Sua notificação deve incluir: (1) Uma descrição da obra protegida
+              por direitos autorais que você alega ter sido infringida; (2) Uma
+              descrição de onde o material infrator está localizado em nosso
+              Site; (3) Suas informações de contato; (4) Uma declaração de que
+              você acredita de boa fé que o uso do material não é autorizado; (5)
+              Uma declaração, sob pena de perjúrio, de que as informações em sua
+              notificação são precisas e que você é o proprietário dos direitos
+              autorais ou está autorizado a agir em nome do proprietário.
             </p>
             <hr />
-            <h3>Notification</h3>
+            <h3>Encerramento da Conta</h3>
             <p>
-              If you believe that your work was copied or posted on our Website
-              in a way that constitutes copyright infringement, please contact
-              our designated agent at the email address below:
-            </p>
-            <p>
-              Auth0 Copyright Agent Auth0®, Inc. 10800 NE 8th Street, Suite 600
-              Bellevue, WA, 98004 Email: legal@auth0.com
-            </p>
-            <p>
-              If your concern is with content you posted to any auth0.com
-              webpage, please note that by submitting, posting, or displaying
-              your content on our site, you grant Auth0 and its end users a
-              worldwide, royalty-free, non-exclusive license as specified in
-              these Terms.
-            </p>
-            <p>
-              If your content has not been posted to any Auth0 site previous,
-              your notification must include the following information:
-            </p>
-            <ol>
-              <li>
-                A description of the copyrighted work you claim to have been
-                infringed. If you are not the owner of the copyrighted work, you
-                must also include your electronic or digital signature as a
-                person authorized to act on behalf of the copyright owner;
-              </li>
-              <li>
-                A description of where the material that you claim is infringing
-                is located on our Website;
-              </li>
-              <li>
-                Information reasonably sufficient to permit Auth0 to contact
-                you, such as an address, telephone number, and if available, an
-                electronic mail address at which you may be contacted;
-              </li>
-              <li>
-                A statement that you have a good faith belief that the disputed
-                use of the material is not authorized by the copyright owner,
-                its agent, or the law; and
-              </li>
-              <li>
-                A statement by you, made under penalty of perjury, that the
-                information in your notification is accurate, and that you are
-                the copyright owner or are authorized to act on behalf of the
-                copyright owner.
-              </li>
-            </ol>
-            <p>
-              Upon receipt of the written Notification containing the
-              information as outlined in 1 through 5 above:
-            </p>
-            <ol>
-              <li>
-                Auth0 shall remove or disable access to the material that is
-                alleged to be infringing;
-              </li>
-              <li>
-                Auth0 shall forward the written notification to such alleged
-                infringer (&quot;Subscriber&quot;);
-              </li>
-              <li>
-                Auth0 shall take reasonable steps to promptly notify the
-                Subscriber that it has removed or disabled access to the
-                material.
-              </li>
-            </ol>
-            <hr />
-            <h3>Counter Notification</h3>
-            <p>
-              To be effective, a Counter Notification must be a written
-              communication provided to Auth0&apos;s Designated Agent that
-              includes substantially the following:
-            </p>
-            <ol>
-              <li>A physical or electronic signature of the Subscriber;</li>
-              <li>
-                Identification of the material that has been removed or to which
-                access has been disabled and the location at which the material
-                appeared before it was removed or access to it was disabled;
-              </li>
-              <li>
-                A statement under penalty of perjury that the Subscriber has a
-                good faith belief that the material was removed or disabled as a
-                result of mistake or misidentification of the material to be
-                removed or disabled;
-              </li>
-              <li>
-                The Subscriber&apos;s name, address, and telephone number, and a
-                statement that the Subscriber consents to the jurisdiction of
-                Federal District Court for the judicial district in which the
-                address is located, or if the Subscriber&apos;s address is
-                outside of the United States, for any judicial district in which
-                the Service Provider may be found, and that the Subscriber will
-                accept service of process from the person who provided
-                notification or an agent of such person.
-              </li>
-            </ol>
-            <p>
-              Upon receipt of a Counter Notification containing the information
-              as outlined in 1 through 4 above:
-            </p>
-            <ol>
-              <li>
-                Auth0 shall promptly provide you, the complaining party, with a
-                copy of the Counter Notification;
-              </li>
-              <li>
-                Auth0 shall inform you that it will replace the removed material
-                or cease disabling access to it within ten (10) business days;
-              </li>
-              <li>
-                Auth0 shall replace the removed material or cease disabling
-                access to the material within ten (10) to fourteen (14) business
-                days following receipt of the Counter Notification, provided
-                Auth0&apos;s Designated Agent has not received notice from you
-                that an action has been filed seeking a court order to restrain
-                Subscriber from engaging in infringing activity relating to the
-                material on Auth0&apos;s network or system.
-              </li>
-            </ol>
-            <hr />
-            <h3>Account Termination</h3>
-            <p>
-              Auth0 may, in appropriate circumstances, terminate an account
-              holder or subscriber to the Site if he or she is a repeat
-              infringer. If you believe that an account holder or subscriber is
-              a repeat infringer, please follow the instructions above to
-              contact Auth0&apos;s DMCA agent and provide information sufficient
-              for us to verify that the account holder or subscriber is a repeat
-              infringer.
+              O Checksync pode, em circunstâncias apropriadas, encerrar a conta
+              de um usuário se ele for um infrator reincidente de direitos
+              autorais. Se você acredita que um titular de conta é um infrator
+              reincidente, siga as instruções acima para entrar em contato com o
+              agente do Checksync e fornecer informações suficientes para que
+              possamos verificar a situação.
             </p>
           </span>
         </div>
       </article>
     </div>
-  )
+  );
 }

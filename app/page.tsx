@@ -4,10 +4,12 @@ import { appClient } from "@/lib/auth0"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 import { Auth0Logo } from "@/components/auth0-logo"
+import { ChecksyncLogo } from "@/components/checksync-logo"
 
 import { SignUpForm } from "./signup-form"
 import { WelcomeBackCard } from "./welcome-back-card"
 import { SubmitButton } from "@/components/submit-button"
+import GlowCard from "@/components/ui/glowCard"
 
 export default async function Home() {
   const session = await appClient.getSession()
@@ -22,16 +24,16 @@ export default async function Home() {
             "absolute right-4 top-4 md:right-8 md:top-8"
           )}
         >
-          <SubmitButton>Logout</SubmitButton>
+          <span>Sair</span>
         </a>
       ) : (
         <div
           className="absolute right-4 top-4 md:right-8 md:top-8"
-        ><span className="text-sm">Already joined?</span> <a
+        ><span className="text-sm">Já possui uma conta?</span> <a
           className="text-sm underline"
           href="/api/auth/login"
         >
-          <SubmitButton>Log in</SubmitButton>
+          <span>Entrar</span>
         </a>
         </div>
       )}
@@ -39,20 +41,17 @@ export default async function Home() {
       <div className="relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex">
         <div className="absolute inset-0 bg-black" />
         <div className="relative z-20 flex items-center text-lg font-medium">
-          <Auth0Logo className="mr-2 size-8" />
-          <span className="font-semibold">SaaStart</span>
+          <ChecksyncLogo className="mr-2 size-10" />
+          <span className="font-semibold text-2xl">checksync</span>
         </div>
         <div className="relative z-20 m-auto max-w-sm text-center">
           <blockquote className="space-y-2">
             <div className="space-y-8">
               <p className="text-lg font-medium">
-                SaaStart is a reference B2B SaaS application built using Next.js
-                and Auth0 by Okta.
+                Checksync é a plataforma especialista para seus eventos presenciais, de casamentos e aniversários a encontros corporativos.
               </p>
               <p className="text-lg">
-                It features multi-tenancy support, user management and access
-                controls, security policies, self-service Single Sign-On
-                configuration and more out-of-the-box.
+                Organize momentos inesquecíveis com ferramentas para controle de convidados, check-in e gestão completa da sua celebração.
               </p>
             </div>
           </blockquote>

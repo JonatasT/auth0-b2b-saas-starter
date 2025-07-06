@@ -20,11 +20,11 @@ export default function Verify() {
       <CardHeader>
         <CardTitle className="grid gap-2">
           <EnvelopeClosedIcon className="size-5" />
-          <span>Verify your e-mail</span>
+          <span>Verifique o seu e-mail</span>
         </CardTitle>
         <CardDescription>
-          Please check your inbox for a verification link to continue creating
-          your account.
+          Verifique sua caixa de entrada para obter um link de 
+          verificação para continuar criando sua conta.
         </CardDescription>
       </CardHeader>
       <CardFooter>
@@ -38,11 +38,11 @@ export default function Verify() {
             }
 
             toast.success(
-              "The verification e-mail has successfully been sent. Please check your inbox."
+              "O e-mail de verificação foi enviado com sucesso. Verifique sua caixa de entrada."
             )
           }}
         >
-          <SubmitButton>Resend Verification</SubmitButton>
+          <SubmitButton>Reenviar Verificação</SubmitButton>
         </form>
       </CardFooter>
     </Card>

@@ -16,7 +16,7 @@ export async function createOrganization(formData: FormData) {
 
   if (!organizationName || typeof organizationName !== "string") {
     return {
-      error: "Organization name is required.",
+      error: "O nome da organização é obrigatório.",
     }
   }
 
@@ -52,9 +52,9 @@ export async function createOrganization(formData: FormData) {
       }
     )
   } catch (error) {
-    console.error("failed to create an organization", error)
+    console.error("não conseguiu criar uma organização", error)
     return {
-      error: "Failed to create an organization.",
+      error: "Falha ao criar uma organização.",
     }
   }
 
